@@ -1,0 +1,64 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(0, 0%, 100%); 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+}
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem auto;
+    width: 350px;
+    height: 500px;
+    background-color: hsl(0, 0%, 12%);
+}
+.avatar img{
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+}
+.contacts {
+    display: grid;
+    grid-column: span 5;
+    width: 60%;
+}
+.contacts button{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+}
+.developerIdentity h1{
+    color: hsl(0, 0%, 100%);
+}
+.developerIdentity h3{
+    color: hsl(75, 94%, 57%);
+}
+.developerIdentity p{
+    color: hsl(0, 0%, 100%);
+    opacity: 50%;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+@media(max-width: 700px) {
+    .container {
+        width: 250px;
+        height: 500px;
+        margin: 5rem auto
+    }
+    .avatar img {
+        width: 70px;
+        height: auto;
+    }
+}
